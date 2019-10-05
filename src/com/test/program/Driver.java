@@ -12,7 +12,8 @@ public class Driver {
 		int mIndexOfProblem = Integer.parseInt(in.next());
 		switch(mIndexOfProblem) {
 			case 1:
-				new Driver().solveNQueen();		
+				new Driver().solveNQueen();
+				break;		
 		}
 	}
 	
