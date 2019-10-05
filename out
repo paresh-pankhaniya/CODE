@@ -1,0 +1,29 @@
+Please Enter(number) the choise of problem you want to solve.
+1. Nqueen problem 
+Please Enter the N, for Nqueen
+Getting	result.....
+i,j >>>>:0 ,1
+i,j1 ,0
+i,j1 ,1
+i,j1 ,2
+i,j >>>>:1 ,3
+i,j >>>>:2 ,0
+i,j3 ,0
+i,j3 ,1
+i,j >>>>:3 ,2
+0 0 0
+0 1 1
+0 2 0
+0 3 0
+1 0 0
+1 1 0
+1 2 0
+1 3 1
+2 0 1
+2 1 0
+2 2 0
+2 3 0
+3 0 0
+3 1 0
+3 2 1
+3 3 0
