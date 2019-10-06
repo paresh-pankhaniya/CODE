@@ -6,14 +6,17 @@ public class Driver {
 	int mIndexOfProblem;
 	static Scanner in = new Scanner(System.in);
 	public static void main(String arg[]) {
-		System.out.print("1. Nqueen problem \n");
+		System.out.print("1. Nqueen problem \n2. Knight Problem\n");
 		System.out.print("Please Enter(number) the choise of "+
 			"problem you want to solve.\n");
 		int mIndexOfProblem = Integer.parseInt(in.next());
 		switch(mIndexOfProblem) {
 			case 1:
 				new Driver().solveNQueen();
-				break;		
+				break;
+			case 2:
+				new Driver().solveKnight();
+				break;
 		}
 	}
 	
@@ -36,5 +39,14 @@ public class Driver {
 		}
 		
 			
+	}
+
+	private void solveKnight() {
+		System.out.println("Please Enter the x,y and N, for Knight problem, it should be in one line and one space seperated.");
+		int x = Integer.parseInt(in.next());
+		int y = Integer.parseInt(in.next());
+		int n = Integer.parseInt(in.next());
+		Knight mKnight = Knight.getInstance();
+		System.out.println("The result is :"+mKnight.getResult(x,y,n));
 	}
 }
