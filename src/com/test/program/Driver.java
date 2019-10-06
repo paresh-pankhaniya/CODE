@@ -42,7 +42,8 @@ public class Driver {
 	}
 
 	private void solveKnight() {
-		System.out.println("Please Enter the x,y and N, for Knight problem, it should be in one line and one space seperated.");
+		System.out.println("Please Enter the x,y and N, for Knight problem," +
+			"it should be in one line and one space seperated.");
 		int x = Integer.parseInt(in.next());
 		int y = Integer.parseInt(in.next());
 		int n = Integer.parseInt(in.next());
