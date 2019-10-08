@@ -17,3 +17,12 @@ To execute the program run the below command:
  java -cp bin/ com.test.program.Driver
 
 ------------------------------------------------------------------------------------
+
+TestCase: example for String problem
+
+2
+3
+xyz
+4
+wxyz
+
